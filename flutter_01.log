@@ -1,0 +1,48 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib/main.dart -d emulator-5554 --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-allow-expose-url --devtools-server-address http://127.0.0.1:9100/
+
+## exception
+
+RPCError: getIsolate: (112) Service has disappeared
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 2.0.4, on Linux, locale en_IN.UTF-8)
+    • Flutter version 2.0.4 at /home/env/snap/flutter/common/flutter
+    • Framework revision b1395592de (7 days ago), 2021-04-01 14:25:01 -0700
+    • Engine revision 2dce47073a
+    • Dart version 2.12.2
+
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at /home/env/Android/Sdk
+    • Platform android-30, build-tools 30.0.3
+    • Java binary at: /usr/bin/java
+    • Java version OpenJDK Runtime Environment 18.9 (build 11.0.10+9)
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/linux#android-setup for more details.
+
+[✗] Chrome - develop for the web (Cannot find Chrome executable at google-chrome)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/docs/get-started/install/linux#android-setup for detailed instructions).
+
+[✓] VS Code (version 1.55.0)
+    • VS Code at /usr/share/code
+    • Flutter extension version 3.21.0
+
+[✓] Connected device (1 available)
+    • sdk gphone x86 arm (mobile) • emulator-5554 • android-x86 • Android 11 (API 30) (emulator)
+
+! Doctor found issues in 3 categories.
+```
