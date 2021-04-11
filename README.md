@@ -1,16 +1,7 @@
-# tester
+# The weather app
 
-A new Flutter project.
+Flutter project for MLSA recruitment app dev
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you are facing issues wd opening apk , and is stuck on loading page (not all cases ) please use the app by running it from the ide in a emulator or using your phone with debugging usb on ( later is preferred)
